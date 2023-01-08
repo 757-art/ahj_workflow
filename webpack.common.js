@@ -7,6 +7,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     publicPath: '',
+    assetModuleFilename: 'images/[name][contenthash][ext]'
   },
   module: {
     rules: [
